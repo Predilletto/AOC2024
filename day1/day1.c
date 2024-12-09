@@ -66,7 +66,7 @@ void q2(int arr1[], int arr2[], int size) {
 }
 
 void populate_arrays(char *line, int *num1, int *num2) {
-  sscanf(line, "%d %d", &*num1, &*num2);
+  sscanf(line, "%d %d", num1, num2);
 }
 
 int main(int argc, char *argv[]) {
